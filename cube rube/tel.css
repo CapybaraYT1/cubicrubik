@@ -1,0 +1,14 @@
+@media(max-width:500px){
+    h1{
+        font-size: 243%;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.637);
+        font-weight: 760;
+        font-family: Montserrat;
+    }
+    #block1 img{
+        margin-top: -25px;
+        width: 10%;
+        /* transform: rotate(); ctrl+? */
+    }
+}

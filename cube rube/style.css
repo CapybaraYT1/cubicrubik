@@ -1,0 +1,43 @@
+@font-face {
+    font-family:Montserrat;
+    src: url(fonss/Montserrat-VariableFont_wght.ttf);
+}
+h1{
+    font-size: 243%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.637);
+    font-weight: 760;
+    font-family: Montserrat;
+}
+body{
+    background-color: rgb(136, 135, 135);
+}
+header{
+    text-align: center;
+}
+#block1 img{
+    margin-top: -25px;
+    width: 10%;
+    /* transform: rotate(); ctrl+? */
+}
+#block1{
+    font-family: Montserrat;
+}
+#block2 img{
+    margin-top: 5px;
+    width: 40%;
+}
+#block2{
+    text-align: center;
+    font-family: Montserrat;
+}
+#block2{
+    color: rgb(27, 27, 165);
+}
+.d2{
+    color:red
+}
+#block3{
+    font-family: Montserrat;
+    color: rgb(101, 27, 170);
+}
