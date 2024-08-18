@@ -8,7 +8,41 @@
     }
     #block1 img{
         margin-top: -25px;
-        width: 29%;
-        /* transform: rotate(); ctrl+? */
+        width: 20vw;
+        border: 1px border red
+    }
+    #slidehow #conteyner img{
+        width: 52vw;
+        object-fit: cover;
+        height: 240px;
+    }
+    #slidehow #conteyner{
+        display: flex;
+        gap: 15vw;
+        animation: start 5s infinite alternate linear;
+        margin-left: 24%;;
+    }
+    @keyframes start {
+        from{
+            transform: translateX(0);
+        }
+        50%{
+            transform: translateX(-67vw);
+        }
+        to{
+        transform: translateX(-134vw);
+        }
+    }
+    #slidehow{
+        width: 67vw;
+        margin-left: 24%;
+        overflow: hidden;
+    }
+    #block4{
+        font-family: Montserrat;
+        color:rgb(10, 92, 47);
+    }
+    #block4 .txtt{
+        color:rgb(4, 41, 20);
     }
 }

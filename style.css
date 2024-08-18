@@ -5,7 +5,7 @@
 h1{
     font-size: 243%;
     text-align: center;
-    color: rgba(0, 0, 0, 0.637);
+    color: rgb(0, 0, 0);
     font-weight: 760;
     font-family: Montserrat;
 }
@@ -17,11 +17,12 @@ header{
 }
 #block1 img{
     margin-top: -25px;
-    width: 10%;
+    width: 11vw;
     /* transform: rotate(); ctrl+? */
 }
 #block1{
     font-family: Montserrat;
+    color: rgb(36, 36, 36);
 }
 #block2 img{
     margin-top: 5px;
@@ -34,10 +35,50 @@ header{
 #block2{
     color: rgb(27, 27, 165);
 }
+#block2 h2{
+    color: rgb(14, 14, 82);
+}
 .d2{
-    color:red
+    color:rgb(0, 0, 0)
 }
 #block3{
     font-family: Montserrat;
     color: rgb(101, 27, 170);
+}
+#block3 h2{
+    color: rgb(47, 13, 78)
+}
+#slidehow #conteyner img{
+    width: 52vw;
+    object-fit: cover;
+    height: 240px;
+}
+#slidehow #conteyner{
+    display: flex;
+    gap: 15vw;
+    animation: start 5s infinite alternate linear;
+    margin-left: 24%;;
+}
+@keyframes start {
+    from{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(-67vw);
+    }
+    to{
+    transform: translateX(-134vw);
+    }
+}
+#slidehow{
+    width: 67vw;
+    margin-left: 24%;
+    overflow: hidden;
+}
+#block4{
+    font-family: Montserrat;
+    color:rgb(10, 92, 47);
+}
+#block4 .txtt{
+    color:rgb(4, 41, 20);
 }
